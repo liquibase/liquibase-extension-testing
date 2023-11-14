@@ -1,0 +1,6 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.app.AppTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s -- in com.mycompany.app.AppTest
+com.mycompany.app.AppTest.testAppConstructor -- Time elapsed: 0.010 s
+com.mycompany.app.AppTest.testAppMessage -- Time elapsed: 0.001 s
