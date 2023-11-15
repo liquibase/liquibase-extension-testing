@@ -9,13 +9,13 @@
         <version>0.3.2</version>
     </parent>
 
-    <groupId>org.liquibase.ext</groupId>
-    <artifactId>liquibase-extension-testing</artifactId>
-    <version>4.25.1-SNAPSHOT</version>
-    <name>Liquibase Extension Testing</name>
-    <description>This extension is a test extension to test build workflows and more stuff.</description>
-    <url>https://github.com/liquibase/liquibase-extension-testing</url>
-    <packaging>jar</packaging>
+<groupId>org.liquibase.ext</groupId>
+<artifactId>liquibase-extension-testing</artifactId>
+<version>4.25.1-SNAPSHOT</version>
+<name>Liquibase Extension Testing</name>
+<description>This extension is a test extension to test build workflows and more stuff.</description>
+<url>https://github.com/liquibase/liquibase-extension-testing</url>
+<packaging>jar</packaging>
 
     <properties>
         <liquibase.version>4.24.0</liquibase.version>
