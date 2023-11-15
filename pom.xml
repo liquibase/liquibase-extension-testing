@@ -1,6 +1,7 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
   <parent>
     <groupId>org.liquibase</groupId>
@@ -10,30 +11,21 @@
 
 <groupId>org.liquibase.ext</groupId>
 <artifactId>liquibase-extension-testing</artifactId>
-<version>4.25.0-SNAPSHOT</version>
+<version>4.25.1-SNAPSHOT</version>
 <name>Liquibase Extension Testing</name>
 <description>This extension is a test extension to test build workflows and more stuff.</description>
 <url>https://github.com/liquibase/liquibase-extension-testing</url>
 <packaging>jar</packaging>
 
-  <dependencies>
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-api</artifactId>
-      <version>5.10.0</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
+    <properties>
+        <liquibase.version>4.24.0</liquibase.version>
+    </properties>
 
-  <properties>
-    <liquibase.version>4.24.0</liquibase.version>
-  </properties>
-
-  <scm>
-    <connection>scm:git:${project.scm.url}</connection>
-    <developerConnection>scm:git:${project.scm.url}</developerConnection>
-    <url>https://github.com/liquibase/liquibase-extension-testing.git</url>
-    <tag>HEAD</tag>
-  </scm>
+    <scm>
+        <connection>scm:git:${project.scm.url}</connection>
+        <developerConnection>scm:git:${project.scm.url}</developerConnection>
+        <url>https://github.com/liquibase/liquibase-extension-testing.git</url>
+        <tag>HEAD</tag>
+    </scm>
 
 </project>
