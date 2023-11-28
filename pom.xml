@@ -9,7 +9,6 @@
     <version>0.3.2</version>
  </parent>
 
-    
 
 <groupId>org.liquibase.ext</groupId>
 <artifactId>liquibase-extension-testing</artifactId>
