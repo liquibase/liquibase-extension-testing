@@ -23,7 +23,6 @@
 
 
 
-
     
     <scm>
         <connection>scm:git:${project.scm.url}</connection>
