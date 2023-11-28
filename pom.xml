@@ -10,7 +10,6 @@
  </parent>
 
     
-
 <groupId>org.liquibase.ext</groupId>
 <artifactId>liquibase-extension-testing</artifactId>
 <version>4.25.1-SNAPSHOT</version>
