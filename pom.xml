@@ -19,7 +19,6 @@
     <properties>
         <liquibase.version>4.24.0</liquibase.version>
     </properties>
-
     <scm>
         <connection>scm:git:${project.scm.url}</connection>
         <developerConnection>scm:git:${project.scm.url}</developerConnection>
