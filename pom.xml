@@ -16,7 +16,7 @@
 <url>https://github.com/liquibase/liquibase-extension-testing</url>
 <packaging>jar</packaging>
     <properties>
-        <liquibase.version>4.24.0</liquibase.version>
+        <liquibase.version>4.25.0</liquibase.version>
     </properties>
     <scm>
         <connection>scm:git:${project.scm.url}</connection>
