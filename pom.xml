@@ -10,7 +10,7 @@
 
 <groupId>org.liquibase.ext</groupId>
 <artifactId>liquibase-extension-testing</artifactId>
-<version>4.26.0-SNAPSHOT</version>
+<version>4.25.0-SNAPSHOT</version>
 <name>Liquibase Extension Testing</name>
 <description>This extension is a test extension to test build workflows and more stuff.</description>
 <url>https://github.com/liquibase/liquibase-extension-testing</url>
